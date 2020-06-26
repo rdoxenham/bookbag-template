@@ -1,5 +1,7 @@
 FROM quay.io/openshifthomeroom/workshop-dashboard:5.0.0
 
+ADD https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/latest-4.4/openshift-client-linux.tar.gz /opt/app-root/bin/
+
 USER root
 
 COPY . /tmp/src

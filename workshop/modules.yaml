@@ -1,17 +1,35 @@
----
 modules:
-  overview:
-    name: Workshop Overview
-    exit_sign: Prepare Environment
-  prepare-environment:
-    name: Prepare Environment
-    exit_sign: Lab Exercises
-  exercises:
-    name: Lab Exercises
-    exit_sign: Cleanup
-  cleanup:
-    name: Cleanup
-    exit_sign: Resetting and Solving
-  solving-resetting:
-    name: Resetting and Solving
-    exit_sign: Finish Workshop
+    welcome:
+        name: Welcome
+        exit_sign: Lab Validation
+    validation:
+        name: Validate Connectivity
+        exit_sign: Deploy CNV
+    deploy-cnv:
+        name: Deploy CNV
+        exit_sign: Storage Setup
+    storage-setup:
+        name: Storage Setup
+        exit_sign: Networking Setup
+    network-setup:
+        name: Network Setup
+        exit_sign: Deploy Workloads
+    deploy-workloads:
+        name: Deploy Workloads
+        exit_sign: Clone a Workload
+    cloning:
+        name: Clone a Workload
+        exit_sign: Live Migration
+    live-migration:
+        name: Live Migration
+        exit_sign: Masquerade Networking
+    masquerade:
+        name: Masquerade Networking
+        exit_sign: CNV Console
+    console:
+        name: Using the console
+        exit_sign: Upgrading CNV
+    upgrading-cnv:
+        name: Upgrading CNV
+        exit_sign: Finish Workshop
+
